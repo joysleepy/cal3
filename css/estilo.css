@@ -3,19 +3,40 @@ body{
 }
 
 header{
+    color: white;
     background: black;
     margin: 1em;
     padding: 1em;
+
 }
 
-header h1{
-    color: white;
+header figure, header section{
+    display: inline-block;
+    margin: 0;
+}
+
+
+header figure{
+  width: 30%;  
+}
+
+header section{
+    width: 60%; 
+    text-align: right;
+    border: none; 
 }
 
 section{
     border: solid 1px green;
     margin: 1em;
     padding: 1em;
+}
+
+section#galeria figure{
+    display: inline-block;
+    width: 30%;
+    border: 1px solid grey;
+    margin: 1%;
 }
 
 section#galeria figure img{
@@ -31,3 +52,16 @@ section#footer{
 }
 
 
+header input{
+    width: 350px;
+    height: 24px;
+    margin-right: -5px;
+}
+
+button{
+    background: green;
+    border:none;
+    color: white;
+    width: 90px;
+    height: 30px;
+}
