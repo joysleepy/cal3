@@ -32,6 +32,11 @@ section{
     padding: 1em;
 }
 
+section#welcome{
+    text-align: center;
+}
+
+
 section#galeria figure{
     display: inline-block;
     width: 30%;
