@@ -52,10 +52,13 @@ section#footer{
 }
 
 
-header input{
-    width: 350px;
+input{
     height: 24px;
     margin-right: -5px;
+}
+
+header input{
+    width: 350px;
 }
 
 button{
